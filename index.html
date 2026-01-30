@@ -1,0 +1,42 @@
+ <!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Registration Form</title>
+    
+</head>
+<link rel="stylesheet" href="style.css">
+
+    <h2> Registration Form</h2>
+
+    <div class="container">
+        <input type="text" id="name" placeholder="Enter Name">
+        <input type="email" id="email" placeholder="Enter Email">
+        <input type="number" id="age" placeholder="Enter Age">
+        <input type="text" id="mobile" placeholder="Enter Mobile no">
+        <input type="text" id="address" placeholder="Enter Address">
+        <button onclick="addData()">Add Data</button>
+    </div>
+<div>
+    <h2>User Data Table</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>Mobile no</th>
+                <th>Address</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+    </table>
+</div>
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>
